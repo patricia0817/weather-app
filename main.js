@@ -92,4 +92,5 @@ function updateLocation(data) {
   const countryLocationValue = data.sys.country;
   cityLocation.textContent = cityLocationValue;
   countryLocation.textContent = countryLocationValue;
+  console.log('done');
 }
